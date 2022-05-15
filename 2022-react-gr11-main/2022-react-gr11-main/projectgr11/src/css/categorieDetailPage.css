@@ -1,0 +1,59 @@
+a:link,
+a:visited,
+a:hover,
+a:active {
+  text-decoration: none;
+}
+
+#CategorieContainer {
+  position: relative;
+}
+.image {
+  padding: 5px;
+  width: 100px;
+}
+
+#SDGGrid {
+  display: flex;
+  flex-direction: row;
+  column-gap: 20px;
+  padding: 20px 0;
+}
+
+.categorie-header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#CategorieHeader {
+  width: 35%;
+  padding-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid grey;
+}
+
+#CategorieHeader h1 {
+  color: #a6d311;
+}
+
+#CategorieBody {
+  padding-left: 50px;
+}
+
+#CategorieBody h3 {
+  color: #004b6c;
+  font-size: 20px;
+}
+
+.SDG-body {
+  padding-left: 50px;
+}
+
+.SDG-body h3 {
+  color: #004b6c;
+  font-size: 20px;
+}

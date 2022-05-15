@@ -1,0 +1,39 @@
+.cont-ainer {
+  display: grid;
+  grid-template-columns: 200px 4fr;
+}
+
+.inactive {
+  cursor: default;
+  pointer-events: none;
+}
+
+#menu {
+  width: 100%;
+  background-color: lightgray;
+}
+
+.details {
+  background-color: white;
+  width: 100%;
+  padding-top: 10px;
+}
+.breadcrumb {
+  background-color: white;
+  width: 100%;
+}
+
+.cont-ainer2 {
+  display: flex;
+  flex-direction: column;
+  padding-left: 10px;
+  padding-top: 5px;
+}
+
+.cont-ainer2 a {
+  text-decoration: none;
+  color: black;
+}
+.cont-ainer2 a:hover {
+  color: blue;
+}

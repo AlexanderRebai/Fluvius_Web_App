@@ -1,0 +1,114 @@
+::-webkit-scrollbar {
+  display: none;
+}
+
+.template-main {
+  background-color: rgba(221, 17, 17, 0);
+  height: 100%;
+  width: 100%;
+  transition: 0.5s;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+.template-main .text-box {
+  height: 80px;
+  width: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+  border-bottom: 1px solid grey;
+  position: relative;
+}
+.template-main .text-box-role {
+  height: 80px;
+  width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+  border-bottom: 1px solid grey;
+  position: relative;
+}
+.template-main .text-box .title {
+  font-weight: bold;
+  font-size: 50px;
+  color: #a6d311;
+}
+.template-main .text-box-role .role-template {
+  font-weight: bold;
+  font-size: 30px;
+  color: #a6d311;
+  text-align: center;
+}
+
+.template-main .template-header .add-btn:hover {
+  background-color: #498fad;
+  color: #fff;
+}
+
+.template-main .template-header {
+  position: relative;
+  width: 70%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.template-remove-icon {
+  color: black;
+  width: 30px;
+  height: 30px;
+  transition: 0.3s all ease;
+}
+.template-remove-icon:hover {
+  color: red;
+  width: 30px;
+  height: 30px;
+  transition: 0.3s all ease;
+}
+
+.temp-card {
+  background: #fff;
+  padding: 25px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+  box-shadow: 0 7px 25px rgba(0, 0, 0, 0.08);
+  margin-bottom: 10px;
+  flex-direction: column;
+}
+.temp-card:hover {
+  background: #a6d3118f;
+  cursor: pointer;
+}
+.active-temp {
+  background: #a6d311;
+}
+.active-temp span {
+  color: #fff;
+}
+.temp-span {
+  font-weight: bold;
+  font-size: 1.5em;
+  color: rgb(77, 164, 214);
+}
+.span-active {
+  color: #fff;
+}
+.templates {
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  position: relative;
+}

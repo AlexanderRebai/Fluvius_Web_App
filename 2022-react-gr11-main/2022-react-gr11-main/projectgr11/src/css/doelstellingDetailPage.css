@@ -1,0 +1,68 @@
+#GraphContainer {
+  width: 100%;
+  margin-bottom: 25px;
+}
+
+#GrafiekDetail {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+  margin-right: 525px;
+  margin-left: 40px;
+  min-width: 60%;
+}
+
+#DoelstellingGrafieken {
+  display: flex;
+  flex-direction: row;
+}
+.linkedDatasources {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.cardBoxDatasource {
+  width: 100%;
+  padding: 20px;
+  display: grid;
+  /* grid-template-columns: repeat(4, 1fr); */
+  grid-gap: 30px;
+}
+
+.cardBoxDatasource .cardDatasource {
+  position: relative;
+  background: var(--white);
+  padding: 30px;
+  border-radius: 20px;
+  display: grid;
+  justify-content: space-between;
+  cursor: pointer;
+  box-shadow: 0 7px 25px rgba(0, 0, 0, 0.08);
+}
+
+.cardBoxDatasource .cardDatasource .numbersDatasource {
+  position: relative;
+  font-weight: 500;
+  font-size: 1.8em;
+  color: var(--blue);
+}
+
+.cardBoxDatasource .cardDatasource:hover {
+  background: var(--blue);
+}
+
+.cardBoxDatasource .cardDatasource:hover .numbersDatasource {
+  color: var(--white);
+}
+@media screen and (max-width: 750px) {
+  .cardBoxDatasource {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media screen and (max-width: 500px) {
+  .cardBoxDatasource {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

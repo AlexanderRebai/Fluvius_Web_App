@@ -1,0 +1,21 @@
+.breadcrumb-container {
+  background-color: #fff;
+  padding: 5px 0;
+  padding-left: 25px;
+  height: 30px;
+  width: 100%;
+}
+#breadcrumb-item {
+  text-decoration : none;
+  color: #004b6c;
+}
+#breadcrumb-item:hover {
+  opacity: 0.5;
+}
+#breadcrumb-item:visited {
+  color: #004b6c;
+}
+#breadcrumb-item-active{
+  color: #A6D311;
+  font-weight: bold;
+}

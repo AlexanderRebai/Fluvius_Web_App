@@ -1,0 +1,19 @@
+.link-item{
+    text-decoration: none;
+    color: #fff;
+    padding: 20px;
+    transition: all 0.5s ease;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.link-item:hover{
+    color: #A6D311;
+}
+.link-item-active{
+    color: #A6D311;
+    text-decoration: none;
+    padding: 20px;
+    transition: all 0.5s ease;
+    border-radius: 5px;
+    font-weight: bold;
+}

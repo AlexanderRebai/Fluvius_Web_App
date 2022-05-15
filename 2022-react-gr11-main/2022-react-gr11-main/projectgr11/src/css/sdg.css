@@ -1,0 +1,92 @@
+#SubSDGsTable {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  padding-bottom: 10px;
+}
+
+#SubSDGsTable table {
+  width: 90%;
+}
+
+#SubSDGsTable td,
+#SubSDGsTable th {
+  padding: 5px;
+  text-align: left;
+  border-bottom: 1px solid rgb(73, 73, 73);
+}
+
+#SubSDGsTable tr:nth-child(even) {
+  background-color: #9fef93;
+}
+
+#SubSDGsTable th {
+  background-color: #04aa6d;
+  color: white;
+}
+
+#SDGIcon {
+  display: block;
+  /* width: 50%;
+  height: 18rem; */
+  object-fit: cover;
+  border-radius: 15px;
+  width: 100px;
+  height: 100px;
+}
+
+#SDGName {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #0d0d0d;
+  margin: 1.5rem 0;
+}
+
+#SDGBtn {
+  background: #fff;
+  padding: 10px 50px;
+  border-radius: 20px;
+  border: 2px solid #004b6c;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+  box-shadow: 0 7px 25px rgba(0, 0, 0, 0.08);
+  color: #004b6c;
+  font-weight: bold;
+  transition: all 0.2s ease-in-out;
+}
+
+#SDGBtn span {
+  margin-left: 1rem;
+  transition: 0.2s;
+}
+
+#SDGBtn:hover,
+#SDGBtn:active {
+  background-color: #dce4ff;
+}
+#SDGBtn:hover span,
+#SDGBtn:active span {
+  margin-left: 1.5rem;
+}
+
+#SDGCard {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 70%;
+  padding: 10px;
+  text-align: center;
+  background-color: rgb(255, 255, 255);
+  border-radius: 15px;
+  box-shadow: 0 7px 50px rgba(0, 0, 0, 0.221);
+}
+
+#SDGDetailContainer {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  min-width: 33%;
+}
